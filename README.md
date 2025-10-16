@@ -59,35 +59,33 @@ npm install
 
 # Run the app
 npm run dev
-Now, open your browser and visit http://localhost:3000 🎯
+```
 
-🕹️ Gameplay Instructions
-Use Arrow Keys or on-screen buttons to move tiles.
+Now, open your browser and visit **http://localhost:3000** 🎯
 
-Tiles with the same number merge into one when they collide.
+---
 
-After every move, a new tile (2 or 4) appears in a random empty cell.
+## 🕹️ Gameplay Instructions
+1. Use **Arrow Keys** or on-screen buttons to move tiles.  
+2. Tiles with the same number merge into one when they collide.  
+3. After every move, a new tile (2 or 4) appears in a random empty cell.  
+4. The **score** increases with every successful merge.  
+5. The **game ends** when no moves are left or the player reaches 2048.  
+6. Click **Restart** to play again.
 
-The score increases with every successful merge.
+---
 
-The game ends when no moves are left or the player reaches 2048.
+## 🧩 Functional Design & Logic
+- The **core logic** (merging, movement, and tile spawning) resides in `/lib/game-logic.ts`.  
+- **State management** is handled via a custom React hook `use-game-state.ts`.  
+- GUI updates dynamically using React’s state and effect hooks.  
+- The application follows **functional programming principles** with immutable state updates.  
+- The modular architecture ensures code reusability and separation of concerns.
 
-Click Restart to play again.
+---
 
-🧩 Functional Design & Logic
-The core logic (merging, movement, and tile spawning) resides in /lib/game-logic.ts.
-
-State management is handled via a custom React hook use-game-state.ts.
-
-GUI updates dynamically using React’s state and effect hooks.
-
-The application follows functional programming principles with immutable state updates.
-
-The modular architecture ensures code reusability and separation of concerns.
-
-📦 Folder Structure
-pgsql
-Copy code
+## 📦 Folder Structure
+```
 2048-game/
 ├── app/
 │   ├── layout.tsx
@@ -107,19 +105,29 @@ Copy code
 ├── styles/
 │   └── globals.css
 └── package.json
-🧾 Assignment Requirements Checklist
-✅ Default board size 4x4
-✅ Functional merge & move logic
-✅ GUI with live updates
-✅ Dynamic scoring
-✅ Restart feature
-✅ Configurable board size (extendable)
-✅ Modular, readable, and maintainable code
-✅ Public GitHub repository
-✅ Deployed live app link
+```
 
-🧑‍💻 Author
-Harini Lakshmanan
-M.Tech in Information Technology | Software Developer
-📧 lakshmananharini@gmail.com
-🔗 LinkedIn
+---
+
+## 🧾 Assignment Requirements Checklist
+✅ Default board size 4x4  
+✅ Functional merge & move logic  
+✅ GUI with live updates  
+✅ Dynamic scoring  
+✅ Restart feature  
+✅ Configurable board size (extendable)  
+✅ Modular, readable, and maintainable code  
+✅ Public GitHub repository  
+✅ Deployed live app link  
+
+---
+
+## 🧑‍💻 Author
+**Harini Lakshmanan**  
+M.Tech in Information Technology | Software Developer  
+📧 [lakshmananharini@gmail.com](mailto:lakshmananharini@gmail.com)  
+🔗 [LinkedIn](https://www.linkedin.com/in/harini-lakshmanan-04)
+
+---
+
+
