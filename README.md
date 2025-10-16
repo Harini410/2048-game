@@ -123,8 +123,8 @@ Now, open your browser and visit **http://localhost:3000** 🎯
 ---
 
 ## 🧑‍💻 Author
-**Harini Lakshmanan**  
-M.Tech in Information Technology | Software Developer  
+**Harini L**  
+M.Tech in CSE | Software Developer  
 📧 [lakshmananharini@gmail.com](mailto:lakshmananharini@gmail.com)  
 🔗 [LinkedIn](https://www.linkedin.com/in/harini-lakshmanan-04)
 
