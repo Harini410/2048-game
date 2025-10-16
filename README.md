@@ -18,14 +18,14 @@ Each move slides all tiles in one direction (up, down, left, or right). When two
 ---
 
 ## 🖥️ Features
-- 🔹 **4x4 grid** with random tile generation  
-- 🔹 **Functional game logic** for moves, merges, and random tile placement  
-- 🔹 **Dynamic score tracking** and high score display  
-- 🔹 **Keyboard & on-screen controls**  
-- 🔹 **Game Over & Restart options**  
-- 🔹 **Responsive GUI** for smooth user experience  
-- 🔹 **Modular & reusable components** (React + TypeScript)  
-- 🔹 **Clean, readable, and maintainable code**
+-  **4x4 grid** with random tile generation  
+-  **Functional game logic** for moves, merges, and random tile placement  
+-  **Dynamic score tracking** and high score display  
+-  **Keyboard & on-screen controls**  
+-  **Game Over & Restart options**  
+-  **Responsive GUI** for smooth user experience  
+-  **Modular & reusable components** (React + TypeScript)  
+-  **Clean, readable, and maintainable code**
 
 ---
 
